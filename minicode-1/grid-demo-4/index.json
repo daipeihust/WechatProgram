@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "grid-tile": "/components/grid-tile-horizontal/index"
+  }
+}

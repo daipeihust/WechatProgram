@@ -1,0 +1,8 @@
+<view class="container">
+  <button class="btn" type="primary" bind:tap="go1">sticky demo 1</button>
+  <button class="btn" type="primary" bind:tap="go2">sticky demo 2</button>
+  <button class="btn" type="primary" bind:tap="goGrid1">grid masonry</button>
+  <button class="btn" type="primary" bind:tap="goGrid2">grid aligned</button>
+  <button class="btn" type="primary" bind:tap="goGrid3">grid waterfall</button>
+  <button class="btn" type="primary" bind:tap="goGrid4">grid horizontal</button>
+</view>

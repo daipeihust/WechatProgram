@@ -1,0 +1,5 @@
+<scroll-view scroll-x style="width: 100%; height: 50%;" type="custom">
+  <grid-view cross-axis-count="{{crossAxisCount}}" cross-axis-gap="{{crossAxisGap}}" main-axis-gap="{{mainAxisGap}}">
+    <grid-tile wx:for="{{gridList}}" wx:key="id" index="{{item.id}}" width="{{100 * item.sub}}"></grid-tile>
+  </grid-view>
+</scroll-view>

@@ -3,15 +3,17 @@
   <view class="page-body">
     <view style="display: flex; flex-direction: column;">
     <view style="display: flex; flex-direction: row;">
+
       <cover-image id="avatar" src="https://avatars.githubusercontent.com/u/22877659?v=4" bindtap="" style="border-radius: 100rpx; width: 100rpx; display: flex; justify-content: center;justify-content: center; align-items: center;">
       </cover-image>
       <view style="display: flex; width: 150rpx; height: 150rpx; text-align: center; align-items: center; justify-content: center;">
         <text style="height: 100rpx; justify-content: center; display: flex; margin-left: 30rpx;" >liwanwhu</text>
       </view>
+      
     </view >
         <view class="flex-wrp" style="flex-direction:column; margin-top: 30rpx;">
         <button type="primary" bindtap="getCameraSetting" style="width: 600rpx;">拍照</button>
-      </view>
+    </view>
     
     </view>
   </view>

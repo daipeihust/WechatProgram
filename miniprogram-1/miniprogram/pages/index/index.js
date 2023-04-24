@@ -34,9 +34,9 @@ Component({
       })
     },
     focus: function () {
-      
+
     },
-    getCameraSetting: function() {
+    getCameraSetting: function () {
       const _this = this
       wx.getSetting({
         success: res => {
@@ -86,7 +86,7 @@ Component({
       wx.chooseMessageFile({
         count: 1,
         type: image,
-        success (res) {
+        success(res) {
           const tempFilePaths = res.tempFiles
           wx.previewImage({
             urls: [tempFilePaths],

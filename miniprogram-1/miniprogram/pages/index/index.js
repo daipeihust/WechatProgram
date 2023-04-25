@@ -83,15 +83,9 @@ Component({
       })
     },
     takePhoto: function () {
-      wx.chooseMessageFile({
-        count: 1,
-        type: image,
-        success(res) {
-          const tempFilePaths = res.tempFiles
-          wx.previewImage({
-            urls: [tempFilePaths],
-            showmenu: true
-          })
+      wx.getAppAuthorizeSetting({
+        success (res) {
+          console.log(res)
         }
       })
     }
